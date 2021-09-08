@@ -70,46 +70,6 @@ ItemDisplay[vps]:
 ItemDisplay[wms]: 
 ItemDisplay[yps]: 
 
-ItemDisplay[RUNE>1]: %NAME%%NOTIFY-ORANGE%%CONTINUE%					// adds notifications for mid/high runes
-// Individual Rules
-//    Lowest Runes
-ItemDisplay[r01]:	       %RED%>>%ORANGE%>>%TAN%>>%YELLOW%>>%PURPLE%%NAME%%YELLOW%<<%TAN%<<%ORANGE%<<%RED%<<       				// El
-//ItemDisplay[r02]:	%NAME%						// Eld
-//ItemDisplay[r03]:	%NAME%						// Tir
-//ItemDisplay[r04]:	%NAME%						// Nef
-//ItemDisplay[r05]:	%NAME%						// Eth
-//ItemDisplay[r06]:	%NAME%						// Ith
-//ItemDisplay[r07]:	%NAME%						// Tal
-ItemDisplay[r08]:	 %NAME% 					// Ral
-//ItemDisplay[r09]:	%NAME%						// Ort
-//ItemDisplay[r10]:	%NAME%						// Thul
-ItemDisplay[r11]:	 %NAME% 					// Amn
-//ItemDisplay[r12]:	%NAME%						// Sol
-//ItemDisplay[r13]:	%NAME%						// Shael
-//ItemDisplay[r14]:	%NAME%						// Dol
-//    Upper Low Runes
-//ItemDisplay[r15]:	 %PURPLE%%NAME% 					// Hel
-//ItemDisplay[r16]:	 %PURPLE%%NAME% 					// Io
-//ItemDisplay[r17]:	 %PURPLE%%NAME% 					// Lum
-//ItemDisplay[r18]:	 %PURPLE%%NAME% 					// Ko
-//ItemDisplay[r19]:	 %PURPLE%%NAME% 					// Fal
-//    Mid Runes
-ItemDisplay[r20]:	  %RED%>%ORANGE%>%TAN%>%YELLOW%>%PURPLE%%NAME%%YELLOW%<%TAN%<%ORANGE%<%RED%<					// Lem
-ItemDisplay[r21]:	  %RED%>%ORANGE%>%TAN%>%YELLOW%>%PURPLE%%NAME%%YELLOW%<%TAN%<%ORANGE%<%RED%<  					// Pul
-ItemDisplay[r22]:	   %RED%>%ORANGE%>%TAN%>%YELLOW%>%PURPLE%%NAME%%YELLOW%<%TAN%<%ORANGE%<%RED%<   					// Um
-ItemDisplay[r23]:	   %RED%>%ORANGE%>%TAN%>%YELLOW%>%PURPLE%%NAME%%YELLOW%<%TAN%<%ORANGE%<%RED%<  					// Mal
-ItemDisplay[r24]:	    %RED%>%ORANGE%>%TAN%>%YELLOW%>%PURPLE%%NAME%%YELLOW%<%TAN%<%ORANGE%<%RED%<    					// Ist
-ItemDisplay[r25]:	     %RED%>%ORANGE%>%TAN%>%YELLOW%>%PURPLE%%NAME%%YELLOW%<%TAN%<%ORANGE%<%RED%<     				// Gul
-//    High Runes
-ItemDisplay[r26]:	       %RED%>>%ORANGE%>>%TAN%>>%YELLOW%>>%PURPLE%%NAME%%YELLOW%<<%TAN%<<%ORANGE%<<%RED%<<       				// Vex
-ItemDisplay[r32]:	        %RED%>>%ORANGE%>>%TAN%>>%YELLOW%>>%PURPLE%%NAME%%YELLOW%<<%TAN%<<%ORANGE%<<%RED%<<        				// Cham
-ItemDisplay[r27]:	         %RED%>>%ORANGE%>>%TAN%>>%YELLOW%>>%PURPLE%%NAME%%YELLOW%<<%TAN%<<%ORANGE%<<%RED%<<         			// Ohm
-ItemDisplay[r29]:	          %RED%>>%ORANGE%>>%TAN%>>%YELLOW%>>%PURPLE%%NAME%%YELLOW%<<%TAN%<<%ORANGE%<<%RED%<<          			// Sur
-ItemDisplay[r33]:	           %RED%>>%ORANGE%>>%TAN%>>%YELLOW%>>%PURPLE%%NAME%%YELLOW%<<%TAN%<<%ORANGE%<<%RED%<<           			// Zod
-ItemDisplay[r28]:	            %RED%>>%ORANGE%>>%TAN%>>%YELLOW%>>%PURPLE%%NAME%%YELLOW%<<%TAN%<<%ORANGE%<<%RED%<<            			// Lo
-ItemDisplay[r30]:	             %RED%>>%ORANGE%>>%TAN%>>%YELLOW%>>%PURPLE%%NAME%%YELLOW%<<%TAN%<<%ORANGE%<<%RED%<<              		// Ber
-ItemDisplay[r31]:	              %RED%>>%ORANGE%>>%TAN%>>%YELLOW%>>%PURPLE%%NAME%%YELLOW%<<%TAN%<<%ORANGE%<<%RED%<<                		// Jah
-
 // Show possible expensive, fewer-socketed white/magic items with vendor price
 ItemDisplay[(WP11 OR WP12 OR WP13) (NMAG OR MAG) !RW SOCK<2]: %WHITE%%NAME% ($ %PRICE%) // staves, wands and scepters
 ItemDisplay[CL1 (NMAG OR MAG) !RW SOCK<2]: %WHITE%%NAME% ($ %PRICE%) // Druid pelts
